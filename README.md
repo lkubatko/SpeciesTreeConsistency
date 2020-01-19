@@ -1,7 +1,9 @@
 # SpeciesTreeConsistency
 Simulation scripts and data from Wascher and Kubatko (2020)
 
-Files:
+Data are in the Data directory.
+
+Files in Scripts directory:
 1. **comp_lik.R** and **get_lik.R** carry out the likelihood analysis for CIS data
 2. **example_simscript_cis.pl** is a perl script to run a complete simulation for CIS and SNP data. Trees are given below.
 3. **example_simscript_multilocus.pl** is a perl script to run a complete simulation for multilocus data. Trees are the same as in (2) and are given below.
