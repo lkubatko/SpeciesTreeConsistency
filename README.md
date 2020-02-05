@@ -7,10 +7,9 @@ Files in Scripts directory:
 1. **comp_lik.R** and **get_lik.R** carry out the likelihood analysis for CIS data
 2. **example_simscript_cis.pl** is a perl script to run a complete simulation for CIS and SNP data. Trees are given below.
 3. **example_simscript_multilocus.pl** is a perl script to run a complete simulation for multilocus data. Trees are the same as in (2) and are given below.
-4. **simscript_anomalous.pl** is a perl script to analyze the anomalous species tree. It uses the "default" prior settings found in file **a01_master.ctl**.
-5. **simscript_anomalous_yang.pl** is a perl script to analyze the anomalous species tree for data generated with theta=0.05. It uses the informative priors in file **a01_yang.ctl**.
-6. **simscript_anomalous_yang2.pl** is a perl script to analyze the anomalous species tree for data generated with theta=0.01. It uses the informative priors in file **a01_yang2.ctl. 
-7. The trees used in the simulation studies are as follows:
+4. **simscript_anomalous_yang.pl** is a perl script to analyze the anomalous species tree for data generated with theta=0.05. It uses the default priors and the informative priors in file **a01_yang.ctl**.
+5. **simscript_anomalous_yang2.pl** is a perl script to analyze the anomalous species tree for data generated with theta=0.01. It uses the deafult priors and the informative priors in file **a01_yang2.ctl. 
+6. The trees used in the simulation studies are as follows:
 
 
 Symmetric case:
