@@ -21,8 +21,8 @@
 
      cleandata = 0    * remove sites with ambiguity data (1:yes,     0:no)?
 
-    thetaprior = 3 0.004 E  # invgamma(a, b) for theta
-      tauprior = 3 0.002    # invgamma(a, b) for root tau &      Dirichlet(a) for other tau's
+    thetaprior = 3 0.01 E  # invgamma(a, b) for theta
+      tauprior = 3 0.015    # invgamma(a, b) for root tau &      Dirichlet(a) for other tau's
 
 *     heredity = 1 4 4
 *    locusrate = 1 5
